@@ -45,7 +45,6 @@ const Weather = () => {
         weatherData && (
           <div className="weather-info">
             <h2>
-              {" "}
               Your Location is :-
               {weatherData.city_name}, {weatherData.country_code}
             </h2>
