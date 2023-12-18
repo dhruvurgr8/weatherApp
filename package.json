@@ -1,6 +1,6 @@
 {
   "name": "myapp",
-  "homepage": "http://dhruvurgr8.github.io/weatherAppnpm",
+  "homepage": "http://dhruvurgr8.github.io/weatherApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
