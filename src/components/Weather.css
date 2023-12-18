@@ -1,0 +1,72 @@
+/* Weather.css */
+
+.weather-app {
+  text-align: center;
+  padding: 20px;
+}
+
+.app-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.loading-message {
+  font-size: 1.5em;
+  margin-top: 20px;
+  animation: fadeIn 1s ease-in-out infinite alternate; /* Add animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.weather-info {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.weather-info > div {
+  width: 300px; /* Set a fixed width for the card */
+  border: 1px solid #ddd; /* Border around the card */
+  border-radius: 10px; /* Border radius for a rounded appearance */
+  margin: 10px; /* Margin to create spacing between cards */
+  padding: 15px; /* Padding for spacing inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    #ffcc00,
+    #ff6600
+  ); /* Background color */
+}
+/* Additional styling as needed */
